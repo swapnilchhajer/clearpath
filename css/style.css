@@ -1,0 +1,50 @@
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+	/* Styling for Demo
+	---------------------------------------------------- */
+	border:5px solid #e9e9e9;
+	margin:15px;
+	-webkit-box-shadow: 0px 0px 5px #333;
+	-moz-box-shadow: 0px 0px 5px #333;
+	-ms-box-shadow: 0px 0px 5px #333;
+	-o-box-shadow: 0px 0px 5px #333;
+	box-shadow: 0px 0px 5px #333;
+	
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:1;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+	-webkit-animation-duration:3s;
+	-moz-animation-duration:3s;
+	-o-animation-duration:3s;
+	animation-duration:3s;
+}
+
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-o-animation-delay:3s;
+	animation-delay:3s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:1; } to { opacity:0; } }
+@-moz-keyframes fadeIn { from { opacity:1; } to { opacity:0; } }
+@-o-keyframes fadeIn { from { opacity:1; } to { opacity:0; } }
+@keyframes fadeIn { from { opacity:1; } to { opacity:0; } }
